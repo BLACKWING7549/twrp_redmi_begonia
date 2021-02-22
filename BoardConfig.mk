@@ -43,6 +43,10 @@ TARGET_BOARD_PLATFORM_GPU := mali-g76mc4
 # Dependencies
 ALLOW_MISSING_DEPENDENCIES=true
 
+# Maintainer name
+# Default (if not set): N/A
+SHRP_MAINTAINER := 憨憨wwy
+
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 androidboot.selinux=permissive androidboot.usbconfigfs=true
 BOARD_KERNEL_BASE := 0x40078000
